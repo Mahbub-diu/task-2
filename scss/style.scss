@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "IBM Plex Sans", sans-serif;
-  
+
 }
 
 ul {
@@ -47,7 +47,7 @@ section {
       height: 100%;
 
       .circle-position-sticky {
-      position: -webkit-sticky;
+        position: -webkit-sticky;
         position: -moz-sticky;
         position: -o-sticky;
         position: -ms-sticky;
@@ -67,7 +67,8 @@ section {
           padding: 40px;
           margin: 0;
           width: 100%;
-          background: url(/img/operiamo-circle-slider-bg.png);
+          // background: url(operiamo-circle-slider-bg.png);
+          background: url(../img/operiamo-circle-slider-bg.png);
           background-size: cover;
           background-repeat: no-repeat;
 
@@ -117,7 +118,7 @@ section {
         height: 100%;
         color: #f3f1ee;
         overflow-y: scroll;
-        
+
         ul.content-list {
           height: 50%;
           padding-left: 18px;
@@ -151,9 +152,10 @@ section {
           }
         }
       }
-            .circle-content-wrapper::-webkit-scrollbar {
-              display: none;
-            }
+
+      .circle-content-wrapper::-webkit-scrollbar {
+        display: none;
+      }
     }
   }
 }

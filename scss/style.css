@@ -62,7 +62,7 @@ section {
   padding: 40px;
   margin: 0;
   width: 100%;
-  background: url(/img/operiamo-circle-slider-bg.png);
+  background: url(../img/operiamo-circle-slider-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
